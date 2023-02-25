@@ -11,7 +11,7 @@ depends=('perl-config-general' 'libxslt' 'docbook-xsl')
 optdepends=('sg3_utils')
 backup=('etc/tgt/targets.conf')
 source=(https://github.com/fujita/tgt/archive/v$pkgver.tar.gz)
-md5sums=('0fda4666ba0d80e64b81c01232555636')
+md5sums=('e4025a5f06ffe738ea17ec304147607c')
 
 build() {
   cd "$srcdir/$pkgname-$pkgver"
