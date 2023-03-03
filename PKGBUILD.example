@@ -1,0 +1,20 @@
+# Maintainer: Atolycs
+pkgname=exmpale
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="description"
+arch=() # 'any' or architecha
+url=""
+license=('')
+depends=('')
+#optdepends=('')
+#backup=('')
+#source=()
+md5sums=('')
+
+#build() {
+#}
+
+#package() {
+#}
+
