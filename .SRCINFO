@@ -1,0 +1,14 @@
+pkgbase = kde-standard-emta
+	pkgdesc = description
+	pkgver = 22.12
+	pkgrel = 1
+	url = https://github.com/atolycs
+	arch = any
+	license = None
+	depends = kde-utilities-meta
+	depends = kde-system-meta
+	depends = kde-pim-meta
+	depends = kde-graphics-meta
+	depends = kde-multimedia-meta
+
+pkgname = kde-standard-emta
