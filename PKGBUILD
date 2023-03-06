@@ -1,5 +1,5 @@
 # Maintainer: Atolycs
-pkgname=kde-standard-emta
+pkgname=kde-standard-meta
 pkgver=22.12
 pkgrel=1
 pkgdesc="description"
