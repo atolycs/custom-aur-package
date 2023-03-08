@@ -1,6 +1,7 @@
 *
 
 !.SRCINFO
+!paccache.hook
 !PKGBUILD
 !PKGBUILD.example
 !.gitignore
