@@ -1,0 +1,12 @@
+pkgbase = paccache-hook
+	pkgdesc = paccache Hook script
+	pkgver = 1.0.0
+	pkgrel = 1
+	arch = any
+	license = MIT
+	depends = pacman-contrib
+	backup = etc/pacman.d/hooks/paccache.hook
+	source = paccache.hook
+	md5sums = 
+
+pkgname = paccache-hook

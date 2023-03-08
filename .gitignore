@@ -1,6 +1,7 @@
 *
 
 !.SRCINFO
-!PKGBUILD*
+!PKGBUILD
+!PKGBUILD.example
 !.gitignore
 !README.md
