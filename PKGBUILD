@@ -1,12 +1,12 @@
 # Maintainer: Atolycs
-pkgname=exmpale
+pkgname=atolycs-tools
 pkgver=1.0.0
 pkgrel=1
-pkgdesc="description"
+pkgdesc="Atolycs Tools"
 arch=() # 'any' or architecha
-url=""
-license=('')
-depends=('')
+url="https://github.com/atolycs/atolycs-tools"
+license=('none')
+depends=('ffmpeg')
 #optdepends=('')
 #backup=('')
 #source=()
