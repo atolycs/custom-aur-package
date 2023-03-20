@@ -1,5 +1,5 @@
 # Maintainer: Atolycs
-pkgname=paccache-hook
+pkgname=pacman-cache-hook
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="paccache Hook script"
