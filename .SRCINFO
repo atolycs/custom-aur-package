@@ -1,12 +1,13 @@
-pkgbase = paccache-hook
+pkgbase = pacman-cache-hook
 	pkgdesc = paccache Hook script
 	pkgver = 1.0.0
 	pkgrel = 1
+	url = https://github.com/atolycs/custom-aur-package
 	arch = any
 	license = MIT
 	depends = pacman-contrib
-	backup = etc/pacman.d/hooks/paccache.hook
+	backup = etc/pacman.d/hooks/80-paccache.hook
 	source = paccache.hook
-	md5sums = 
+	sha256sums = 2b901834aef2839e4ec4e6bcd5d0f0f75112eaff66f5f7772e040a2bb8fb417d
 
-pkgname = paccache-hook
+pkgname = pacman-cache-hook
