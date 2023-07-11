@@ -11,6 +11,8 @@ depends=('kde-utilities-meta'
          'kde-pim-meta'
          'kde-graphics-meta'
          'kde-multimedia-meta'
+         'sddm'
+         'plasma'
 )
 md5sums=()
 
