@@ -1,5 +1,3 @@
-# custom-aur-package
+# python-configshell-fb
+Python Configshell FreeBranch 1.1.30 Alias PKGBUILD Files
 
-Available AUR Package
-
-[tgt](https://github.com/atolycs/custom-aur-package/tree/tgt)
