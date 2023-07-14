@@ -32,8 +32,8 @@ package() {
    mkdir -p "$pkgdir/usr/bin"
    ln -s "/opt/$pkgname/bin/code-server" "$pkgdir/usr/bin/code-server"
 
-   mkdir -p "$pkgdir/usr/lib/systemd/system"
-   cp -aL "$pkgname.service" "$pkgdir/usr/lib/systemd/system/$pkgname.service"
+   mkdir -p "$pkgdir/usr/lib/systemd/user"
+   cp -aL "$pkgname.service" "$pkgdir/usr/lib/systemd/user/$pkgname.service"
 
    mkdir -p "$pkgdir/usr/share/licenses"
    cp -a "$pkgdir/opt/vscode-server/LICENSE" "$pkgdir/usr/share/licenses/$pkgname"
