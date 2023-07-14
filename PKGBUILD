@@ -1,12 +1,12 @@
 # Maintainer: Atolycs
 pkgname=vscode-server
-pkgver=1.80.0
+pkgver="1.80.1"
 pkgrel=1
 pkgdesc="Official Visual Studio Code server"
 arch=(x86_64) # 'any' or architecha
 url="https://az764295.vo.msecnd.net/stable"
 license=('')
-depends=('tar' 'xz' 'curl')
+depends=('tar' 'xz' 'curl' 'jq')
 #optdepends=('')
 #backup=('')
 __stable_hash=$(curl https://update.code.visualstudio.com/api/commits/stable/server-linux-x64-web | cut -d '"' -f 2)
@@ -16,7 +16,11 @@ source_x86_64=(
      "${url}/${__stable_hash}/vscode-server-linux-x64-web.tar.gz"
 )
 sha256sums=('b7f527ac6d720ccf04d6802df00c991bf3be036b70378893317918bcb24be063')
-sha256sums_x86_64=('037f545da6d61c8b03c11df6660bb6e862fabccf89e3c19d47907f25fffbd216')
+sha256sums_x86_64=('SKIP')
+
+pkgver() {
+  printf "%s" $(curl -s "https://api.github.com/repos/microsoft/vscode/releases" | jq '.[0].tag_name')
+}
 
 #build() {
 #}
