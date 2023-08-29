@@ -1,5 +1,6 @@
 *
 
+!repo-config.conf
 !*.install
 !.SRCINFO
 !PKGBUILD*
