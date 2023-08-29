@@ -1,4 +1,8 @@
 post_install() {
-   repo-add  /var/cache/pacman/local_repo/local-repo.db.tar
+   repo-add  /var/cache/pacman/local_repo/local-aur.db.tar
    echo "Include = /etc/pacman.d/local_repo/repo-config.conf" | tee -a /etc/pacman.conf
+}
+
+post_remove() {
+   sed -i '/repo-config.conf/d' /etc/pacman.conf
 }
