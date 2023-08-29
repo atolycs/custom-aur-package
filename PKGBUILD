@@ -11,8 +11,8 @@ depends=('aurutils' 'pacman-contrib')
 #backup=('')
 install=create-repo-db.install
 source=("repo-config.conf" "create-repo-db.install")
-sha256sums=('027dbd10aaac93501dc43d27f66def9404418028a3ccab02a8ae472d2c675e80'
-            '7cc4dee8a52d056c30d3180975c74a47b5c807fa7fa20bb16f0f38149962c3c2')
+sha256sums=('9e18f0508d5586139be39a10294ac61f8dbb01954f5138ab4d08b710487b9f2e'
+            '342bcdfa1ca785460e6426a39f527ffa4ba0a77b18eff896e500ff1340c69c35')
 
 
 package() {
