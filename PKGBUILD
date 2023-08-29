@@ -12,11 +12,12 @@ depends=('aurutils' 'pacman-contrib')
 install=create-repo-db.install
 source=("repo-config.conf" "create-repo-db.install")
 sha256sums=('9e18f0508d5586139be39a10294ac61f8dbb01954f5138ab4d08b710487b9f2e'
-            '342bcdfa1ca785460e6426a39f527ffa4ba0a77b18eff896e500ff1340c69c35')
+            '1fa4f4faf83a173d72aceafa75d7144237532328f2896a239ec28dded08a2316')
 
 
 package() {
-   install -d "$pkgdir/var/cache/pacman/local_repo" 
+   groupadd --system aurutils
+   install -dm3664 "$pkgdir/var/cache/pacman/local_repo" -g aurutils
    install -Dm0644 "${srcdir}/repo-config.conf" "$pkgdir/etc/pacman.d/local_repo/repo-config.conf"
 }
 

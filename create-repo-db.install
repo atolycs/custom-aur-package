@@ -1,6 +1,11 @@
 post_install() {
    repo-add  /var/cache/pacman/local_repo/local-aur.db.tar
    echo "Include = /etc/pacman.d/local_repo/repo-config.conf" | tee -a /etc/pacman.conf
+
+   echo "Install complited"
+   echo "Please run command"
+   echo "sudo gpasswd -a USER aurutils"
+   echo "and Relogin"
 }
 
 post_remove() {
